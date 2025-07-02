@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #000;
+  background-color: #212429;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,7 +20,8 @@ body {
   height: 100vh;
   text-shadow: 2px 2px 6px #000, 0 1px 0 #bfa06a;
   font-family: "MedievalSharp", cursive;
-  background-color: #000;
+  background-color: #212429;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .cursor-pointer {
@@ -31,4 +32,15 @@ body {
   font-family: "MedievalSharp", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.mantine-Modal-overlay {
+  background: none !important;
+  backdrop-filter: none !important;
+}
+
+@media screen and (max-width: 851px) {
+  .responsive-none {
+    display: none !important;
+  }
 }

@@ -10,6 +10,7 @@ export const Droppable = (props: any) => {
     width: "50px",
     height: "50px",
     padding: "0px",
+    position: "relative" as const,
   };
 
   return (
