@@ -50,3 +50,7 @@
 - Skin de usuário
 - Salvar pontos caso seja um usuário
 - Elo
+
+## Observações técnicas(requisitos)
+- Nodejs v20.14.0
+- Bash: pnpm install & pnpm run dev
